@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Quantum Computer</title>
+      <meta charset="utf-8">
+      <style>
+        h1{
+          font-size:45px;
+          text-align: center;
+          border-bottom: 1px solid gray;
+          margin: 0px;
+          padding: 20px;
+        }
+        ol{
+          font-size: 22px;
+          margin-left:
+        }
+        #container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+          }
+        #container ol{
+              border-right: 1px solid black;
+              width: 300px;
+              padding: 20px;
+              margin-top: 0;
+              margin-left:20px;
+            }
+        a{
+          text-decoration: none;
+          color: black;
+        }
+      </style>
+  </head>
+  <body>
+    <h1><a href="quantum.html">양자컴퓨터</a></h1>
+    <img src="book.jfif" width="50%" height="50%" style="float: right; margin-right: 40px; margin-top:40px; width:25%; height:25%;" >
+    <div id='container'>
+      <div id='box-left'>
+      <ol>
+        <li>양자컴퓨터에 대한 오해</li>
+        <li><a href="quantum2.html">양자역학</a></li>
+        <li>양자컴퓨터의 원리</li>
+        <li>양자컴퓨터의 계산 속도</li>
+        <li><a href="quantum5.html">양자컴퓨터 개발 방식</a></li>
+        <li>양자컴퓨터 개발 현장</li>
+      </ol>
+      </div>
+    <div id='box-center'>
+      <form method="get" action="form.php" autocomplete="off">
+        <h2 style="color:red;">*이름과 성별을 입력해주세요.</h2>
+        <form method="get" action="form.php" autocomplete="off">
+        <p><label>
+  		      <strong>이름</strong>
+  		      <input type="text" name="name">
+  	   </label></p>
+        <p><label>
+        <strong>성별</strong>
+        <input type="radio" name="gender" value="M">남자
+        <input type="radio" name="gender" value="F">여자
+        </label></p>
+        <p>
+  		  <input type="submit" value="제출">
+  	    </p>
+        <br><br><br>책 제목 : 처음 읽는 양자컴퓨터 이야기<br>
+        <br>저자 : 다케다 슌타로<br>
+        <br>출판사 : 플루토<br>
+        <br>책을 선택한 이유 : 얼마 전에 양자컴퓨터에 관한<br> 기사를 읽고 양자컴퓨터에 관심이 생겼다.
+    </form>
+    </div>
+            </div>
+  </body>
+</html>
